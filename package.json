@@ -1,0 +1,18 @@
+{
+  "name": "news-homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live": "live-server",
+    "run:tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "start": "run-p run:tailwind live"
+  },
+  "author": "Mostafa Bodagh Abadi",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "serve": "^14.1.2",
+    "tailwindcss": "^3.2.4"
+  }
+}
